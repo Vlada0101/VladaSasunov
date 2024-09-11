@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="greeting_section" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Greeting Settings</label>
+            <tab>general</tab>
+            <resource>VladaSasunov_CaseStudyAdminUi::config</resource>
+            <group id="greeting_group" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Greeting Configuration</label>
+                <field id="greeting_message" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Greeting Message</label>
+                    <comment>Enter the greeting message to display on /casestudy</comment>
+                    <config_path>greeting/general/greeting_message</config_path>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
