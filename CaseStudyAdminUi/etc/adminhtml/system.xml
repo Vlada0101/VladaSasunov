@@ -9,7 +9,7 @@
                 <label>Greeting Configuration</label>
                 <field id="greeting_message" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Greeting Message</label>
-                    <comment>Enter the message to display</comment>
+                    <comment>Enter the greeting message to display on /casestudy</comment>
                     <config_path>greeting/general/greeting_message</config_path>
                 </field>
             </group>
